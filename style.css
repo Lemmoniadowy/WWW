@@ -10,15 +10,82 @@
     'header header header header'
     'menu main main right'
     'footer footer footer footer';
-  grid-template-columns: 15% auto auto 15%;
+  grid-template-columns: 20% auto auto 15%;
   grid-template-rows: auto 375px auto;
   grid-gap: 10px;
-  background-color: #6c5656;
-  padding: 10px;
+  background-color: #8b097a;
+  padding: 15px;
 }
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(189, 78, 14, 0.8);
   text-align: center;
-  padding: 20px 0;
+  padding: 25px 2;
   font-size: 40px;
 }
+
+ul 
+  {  
+    line-height: 85px;
+    padding-left: 1%;
+    margin: 10px;
+    list-style: none;
+    flex-direction: column;
+  }
+  
+li a 
+  {  
+    text-align: center;
+    font-size: 1em;
+    width: 130px;
+    height: 130px;
+    text-decoration: none;
+    color: rgb(255, 145, 0);
+    background-color: rgb(185, 82, 14);
+    padding: 5%;
+    margin: 15px 10px 10px 15px;
+    border: 1px solid navy;
+    border-radius: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 10px 2px 3px rgb(150, 4, 4);
+    -moz-box-shadow: 10px 2px 3px rgb(151, 11, 11);
+    -webkit-box-shadow: 10px 2px 3px rgb(116, 5, 5);
+  }
+  
+
+li a:hover
+  {
+    color: rgba(231, 101, 14, 0.699);
+    background: rgb(255, 136, 0);
+    border: 1px solid rgb(255, 38, 0);
+  }
+h1
+  {
+    padding-left: 10%;
+  }
+h2
+  {
+    font-size: 15px;
+  }
+#menu
+{
+  padding: 5px;
+}
+.jutube {
+  position: relative;
+  padding: 15%;
+  padding-top: 20%; 
+  overflow: hidden;
+}
+
+.jutube iframe,
+.jutube object,
+.jutube embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+}
+
+.Home1{display:none;}
