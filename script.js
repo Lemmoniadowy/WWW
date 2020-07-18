@@ -1,5 +1,5 @@
 // Create a "close" button and append it to each list item
-var myNodelist = document.getElementsByTagName("LI");
+var myNodelist = document.querySelectorAll(".ToDo li");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");
@@ -36,7 +36,7 @@ function newElement() {
   if (inputValue === '') {
     alert("You must write something!");
   } else {
-    document.getElementById(".UL").appendChild(li);
+    document.querySelector(".ToDo .UL").appendChild(li);
   }
   document.getElementById("myInput").value = "";
 
