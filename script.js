@@ -36,7 +36,7 @@ function newElement() {
   if (inputValue === '') {
     alert("You must write something!");
   } else {
-    document.getElementById("UL").appendChild(li);
+    document.getElementById(".UL").appendChild(li);
   }
   document.getElementById("myInput").value = "";
 

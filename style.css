@@ -100,13 +100,13 @@ h3
 }
 
 /* Remove margins and padding from the list */
-.UL {
+.ToDo UL {
   margin: 0;
   padding: 0;
 }
 
 /* Style the list items */
-.UL li {
+.ToDo UL li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
@@ -122,7 +122,7 @@ h3
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
-.UL li:nth-child(odd) {
+.ToDo UL li:nth-child(odd) {
   background: #f9f9f9;
 }
 
@@ -132,14 +132,14 @@ h3
 }
 
 /* When clicked on, add a background color and strike out text */
-.UL li.checked {
+.ToDo UL li.checked {
   background: #888;
   color: #fff;
   text-decoration: line-through;
 }
 
 /* Add a "checked" mark when clicked on */
-.UL li.checked::before {
+.ToDo UL li.checked::before {
   content: '';
   position: absolute;
   border-color: #fff;
@@ -153,20 +153,20 @@ h3
 }
 
 /* Style the close button */
-.close {
+.ToDo close {
   position: absolute;
   right: 0;
   top: 0;
   padding: 12px 16px 12px 16px;
 }
 
-.close:hover {
+.ToDo close:hover {
   background-color: #f44336;
   color: white;
 }
 
 /* Style the header */
-.headerToDo {
+.ToDo header {
   background-color: #f44336;
   padding: 30px 40px;
   color: white;
@@ -174,14 +174,14 @@ h3
 }
 
 /* Clear floats after the header */
-.header:after {
+.ToDo header:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Style the input */
-.Input {
+.ToDo Input {
   margin: 0;
   border: none;
   border-radius: 0;
