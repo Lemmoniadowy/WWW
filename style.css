@@ -67,10 +67,7 @@ h2
   {
     font-size: 15px;
   }
-#menu
-{
-  padding: 5px;
-}
+
 
 #jutube {
   position: relative;
@@ -169,7 +166,7 @@ h3
 }
 
 /* Style the header */
-#header {
+.headerToDo {
   background-color: #f44336;
   padding: 30px 40px;
   color: white;
@@ -177,14 +174,14 @@ h3
 }
 
 /* Clear floats after the header */
-#header:after {
+.header:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Style the input */
-#Input {
+.Input {
   margin: 0;
   border: none;
   border-radius: 0;
