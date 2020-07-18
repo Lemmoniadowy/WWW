@@ -71,21 +71,19 @@ h2
 {
   padding: 5px;
 }
-.jutube {
-  position: relative;
-  padding: 15%;
-  padding-top: 20%; 
-  overflow: hidden;
-}
 
-.jutube iframe,
-.jutube object,
-.jutube embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 90%;
-  height: 90%;
+#jutube{
+  overflow:hidden;  
+  padding-bottom:56.25%;
+  position:relative;
+  height:5;
+}
+#jutube iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
 
