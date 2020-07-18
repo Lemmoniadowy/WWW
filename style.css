@@ -16,7 +16,12 @@ body {
 .menu { grid-area: menu; }
 .main { grid-area: main; }
 .right { grid-area: right; }
-.footer { grid-area: footer; }
+.footer {
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
 
 .grid-container {
   display: grid;
@@ -71,7 +76,6 @@ body {
   {
     color: rgba(231, 101, 14, 0.699);
     background: rgb(255, 136, 0);
-    border: 1px solid rgb(255, 38, 0);
   }
 h1
   {
@@ -197,6 +201,15 @@ h3
 /* TODO */
 .ToDo {
   grid-area: main;
+}
+
+.ToDo .header{
+  justify-content: space-between;
+}
+
+.ToDo .header>div{
+  display: flex;
+  align-items: center;
 }
 
 /* Style the input */
